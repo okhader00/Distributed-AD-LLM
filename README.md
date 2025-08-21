@@ -29,8 +29,6 @@ conda install -c conda-forge transformers
 pip install --upgrade huggingface hub
 pip install accelerate
 
-## Environment Set-up
-Use anaconda to create python environment and install required libraries:
 ```
 ## To run an experiment
 Set desired `ad_setting`  in `client.py`. 1 for "Normal Only", 2 for "Normal + Anomaly".
@@ -56,4 +54,5 @@ python fl_client.py 2 3
 ```
 
 ## Notes
+
 * We provide one example dataset "BBC News". Please check [NLP-ADBench](https://github.com/USC-FORTIS/NLP-ADBench) for more datasets (AG News, IMDB Reviews, N24 News, and SMS Spam) with the same setting.
